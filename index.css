@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Teko:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Teko", sans-serif;
+}
+
+/* NavBar */
+#navContainer {
+  background-color: black;
+}
+#navbar img {
+  width: 150px;
+}
+ul {
+  gap: 2rem;
+}
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: red;
+  color: white;
+}
+.contactB {
+  display: flex;
+  justify-content: center;
+}
+
+/* home */ /* carousel */
+#Home {
+  background-color: black;
+}
+#button3 {
+  width: 200px;
+}
+.data button {
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: red;
+}
+#Lrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Lrow.data {
+  text-align: left;
+}
+.data h1 {
+  font-size: 60px;
+}
+#carousel-control-next,
+#carousel-control-prev {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  margin: 4rem;
+  margin-top: 20%;
+}
+@media screen and (max-width: 700px) {
+  #carousel-control-next,
+  #carousel-control-prev {
+    margin-top: 90%;
+  }
+}
+/* Second Section */
+#fs {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sectionWraper button {
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: red;
+}
+
+/* Third  section*/
+span {
+  font-weight: bold;
+}
+.thirdh3 {
+  font-size: 40px;
+}
+.thirdH1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: red;
+}
+#thirdSection p {
+  font-size: 19px;
+}
+
+/*  Client Logo part */
+
+.container {
+  overflow: hidden;
+}
+.slider {
+  animation: slidein 30s linear infinite;
+  white-space: nowrap;
+}
+.logos {
+  width: 100%;
+  display: inline-block;
+}
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*  Testimonial  */
+#btnTestimonialPrev {
+  background-color: rgb(50, 48, 48);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin: 2rem;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 700px){
+  #btnTestimonialPrev {
+    background-color: rgb(50, 48, 48);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 1rem;
+    margin-top: 10%;
+  }
+}
+
+/*  News letter */
+.newsLetter{
+  font-size: 100px;
+}
+@media screen and (max-width:700px) {
+  .newsLetter{font-size: 50px;}
+}
+.btnNewsLetter{
+  width: 130px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: red;
+}
+.inputNews{
+  min-width: 280px;
+  min-height: 70px;
+  border: 1px solid #ccc;
+}
+
+
+/*  Contact Us*/
+.contactM{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/62bdbfa5df0ab209c1b02cfa/1656602579978-VHI4H8VMSYCKW3YRMTKZ/white-paper-texture.jpg?format=2500w");
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btContact button{
+  width: 120px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: red;
+}
+.contact input{
+  border: 1px solid #ccc;
+}
+
+/* locations */
+.plOne .plTwo .plThree .plFour, a{
+  text-decoration:none;
+}
+.Ltext{
+  color: red;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/62bdbfa5df0ab209c1b02cfa/1657089650798-EBM08N29JVI7C5C3RV6E/2987335.jpg?format=1500w");
+}
+
+
+/* Footer */
+.footer {
+  background-color: black;
+  max-height: 300px;
+}
