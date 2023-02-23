@@ -139,7 +139,7 @@ span {
   margin-top: 10%;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   #btnTestimonialPrev {
     background-color: rgb(50, 48, 48);
     width: 30px;
@@ -151,64 +151,67 @@ span {
 }
 
 /*  News letter */
-.newsLetter{
+.newsLetter {
   font-size: 100px;
 }
-@media screen and (max-width:700px) {
-  .newsLetter{font-size: 50px;}
+@media screen and (max-width: 700px) {
+  .newsLetter {
+    font-size: 50px;
+  }
 }
-.btnNewsLetter{
+.btnNewsLetter {
   width: 130px;
   height: 70px;
   border-radius: 40px;
   background-color: red;
 }
-.inputNews{
+.inputNews {
   min-width: 280px;
   min-height: 70px;
   border: 1px solid #ccc;
 }
 
-
 /*  Contact Us*/
-.contactM{
+.contactM {
   background-image: url("https://images.squarespace-cdn.com/content/v1/62bdbfa5df0ab209c1b02cfa/1656602579978-VHI4H8VMSYCKW3YRMTKZ/white-paper-texture.jpg?format=2500w");
 }
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.btContact button{
+.btContact button {
   width: 120px;
   height: 55px;
   border-radius: 40px;
   background-color: red;
 }
-.contact input{
+.contact input {
   border: 1px solid #ccc;
 }
 
 /* locations */
-.plOne .plTwo .plThree .plFour, a{
-  text-decoration:none;
+.plOne .plTwo .plThree .plFour,
+a {
+  text-decoration: none;
 }
-.Ltext{
+.Ltext {
   color: red;
 }
+
 .location {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   background-image: url("https://images.squarespace-cdn.com/content/v1/62bdbfa5df0ab209c1b02cfa/1657089650798-EBM08N29JVI7C5C3RV6E/2987335.jpg?format=1500w");
 }
 
-
 /* Footer */
 .footer {
+  overflow-x: hidden;
   background-color: black;
   max-height: 300px;
 }
